@@ -1,0 +1,264 @@
+{
+  "pokemonId": "0129",
+  "shadowSize": 1,
+  "animations": {
+    "Walk": {
+      "name": "Walk",
+      "index": 0,
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "durationsMs": [
+        100,
+        33.333333333333336,
+        66.66666666666667,
+        100,
+        66.66666666666667,
+        33.333333333333336,
+        100
+      ],
+      "frameCount": 7,
+      "directionCount": 8,
+      "groundX": 16,
+      "groundY": 24
+    },
+    "Attack": {
+      "name": "Attack",
+      "index": 1,
+      "frameWidth": 64,
+      "frameHeight": 72,
+      "durationsMs": [
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336
+      ],
+      "frameCount": 15,
+      "directionCount": 8,
+      "groundX": 32,
+      "groundY": 40,
+      "hitFrame": 7,
+      "returnFrame": 9
+    },
+    "Strike": {
+      "name": "Strike",
+      "index": 2,
+      "durationsMs": [],
+      "frameCount": 0,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Shoot": {
+      "name": "Shoot",
+      "index": 3,
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "durationsMs": [
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        66.66666666666667,
+        16.666666666666668,
+        33.333333333333336,
+        33.333333333333336,
+        16.666666666666668,
+        50,
+        50,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336
+      ],
+      "frameCount": 15,
+      "directionCount": 8,
+      "groundX": 16,
+      "groundY": 24,
+      "hitFrame": 11
+    },
+    "SpAttack": {
+      "name": "SpAttack",
+      "index": 4,
+      "durationsMs": [],
+      "frameCount": 0,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Sleep": {
+      "name": "Sleep",
+      "index": 5,
+      "frameWidth": 32,
+      "frameHeight": 24,
+      "durationsMs": [
+        500.00000000000006,
+        583.3333333333334
+      ],
+      "frameCount": 2,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Hurt": {
+      "name": "Hurt",
+      "index": 6,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "durationsMs": [
+        33.333333333333336,
+        133.33333333333334
+      ],
+      "frameCount": 2,
+      "directionCount": 8,
+      "groundX": 24,
+      "groundY": 26
+    },
+    "Idle": {
+      "name": "Idle",
+      "index": 7,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "durationsMs": [
+        133.33333333333334,
+        166.66666666666669,
+        166.66666666666669,
+        200
+      ],
+      "frameCount": 4,
+      "directionCount": 8,
+      "groundX": 16,
+      "groundY": 20
+    },
+    "Swing": {
+      "name": "Swing",
+      "index": 8,
+      "frameWidth": 72,
+      "frameHeight": 72,
+      "durationsMs": [
+        33.333333333333336,
+        16.666666666666668,
+        33.333333333333336,
+        33.333333333333336,
+        50,
+        33.333333333333336,
+        33.333333333333336,
+        16.666666666666668,
+        16.666666666666668
+      ],
+      "frameCount": 9,
+      "directionCount": 8,
+      "groundX": 36,
+      "groundY": 40,
+      "hitFrame": 5,
+      "returnFrame": 5
+    },
+    "Double": {
+      "name": "Double",
+      "index": 9,
+      "frameWidth": 56,
+      "frameHeight": 56,
+      "durationsMs": [
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        50,
+        50,
+        50,
+        33.333333333333336,
+        50,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336
+      ],
+      "frameCount": 16,
+      "directionCount": 8,
+      "groundX": 28,
+      "groundY": 32
+    },
+    "Hop": {
+      "name": "Hop",
+      "index": 10,
+      "frameWidth": 32,
+      "frameHeight": 72,
+      "durationsMs": [
+        33.333333333333336,
+        16.666666666666668,
+        33.333333333333336,
+        50,
+        66.66666666666667,
+        66.66666666666667,
+        50,
+        33.333333333333336,
+        16.666666666666668,
+        33.333333333333336
+      ],
+      "frameCount": 10,
+      "directionCount": 8,
+      "groundX": 16,
+      "groundY": 40,
+      "hitFrame": 9
+    },
+    "Charge": {
+      "name": "Charge",
+      "index": 11,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "durationsMs": [
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336
+      ],
+      "frameCount": 10,
+      "directionCount": 8,
+      "groundX": 17,
+      "groundY": 20,
+      "hitFrame": 5,
+      "returnFrame": 9
+    },
+    "Rotate": {
+      "name": "Rotate",
+      "index": 12,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "durationsMs": [
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336
+      ],
+      "frameCount": 9,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null,
+      "hitFrame": 8
+    }
+  }
+}

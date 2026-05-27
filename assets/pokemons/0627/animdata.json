@@ -1,0 +1,663 @@
+{
+  "pokemonId": "0627",
+  "shadowSize": 0,
+  "animations": {
+    "Walk": {
+      "name": "Walk",
+      "index": 0,
+      "frameWidth": 32,
+      "frameHeight": 48,
+      "durationsMs": [
+        100,
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667
+      ],
+      "frameCount": 5,
+      "directionCount": 8,
+      "groundX": 16,
+      "groundY": 28
+    },
+    "Attack": {
+      "name": "Attack",
+      "index": 1,
+      "frameWidth": 64,
+      "frameHeight": 80,
+      "durationsMs": [
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        66.66666666666667,
+        16.666666666666668,
+        16.666666666666668,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336
+      ],
+      "frameCount": 14,
+      "directionCount": 8,
+      "groundX": 32,
+      "groundY": 44,
+      "hitFrame": 4,
+      "returnFrame": 7
+    },
+    "Strike": {
+      "name": "Strike",
+      "index": 2,
+      "durationsMs": [],
+      "frameCount": 0,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Shoot": {
+      "name": "Shoot",
+      "index": 3,
+      "frameWidth": 24,
+      "frameHeight": 56,
+      "durationsMs": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        33.333333333333336,
+        16.666666666666668
+      ],
+      "frameCount": 11,
+      "directionCount": 8,
+      "groundX": 12,
+      "groundY": 32,
+      "hitFrame": 3,
+      "returnFrame": 6
+    },
+    "FlapAround": {
+      "name": "FlapAround",
+      "index": 4,
+      "frameWidth": 24,
+      "frameHeight": 48,
+      "durationsMs": [
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336
+      ],
+      "frameCount": 18,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null,
+      "hitFrame": 4,
+      "returnFrame": 17
+    },
+    "Sleep": {
+      "name": "Sleep",
+      "index": 5,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "durationsMs": [
+        583.3333333333334,
+        500.00000000000006
+      ],
+      "frameCount": 2,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Hurt": {
+      "name": "Hurt",
+      "index": 6,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "durationsMs": [
+        33.333333333333336,
+        133.33333333333334
+      ],
+      "frameCount": 2,
+      "directionCount": 8,
+      "groundX": 24,
+      "groundY": 25
+    },
+    "Idle": {
+      "name": "Idle",
+      "index": 7,
+      "frameWidth": 24,
+      "frameHeight": 48,
+      "durationsMs": [
+        500.00000000000006,
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667
+      ],
+      "frameCount": 5,
+      "directionCount": 8,
+      "groundX": 12,
+      "groundY": 28
+    },
+    "Swing": {
+      "name": "Swing",
+      "index": 8,
+      "frameWidth": 72,
+      "frameHeight": 80,
+      "durationsMs": [
+        33.333333333333336,
+        16.666666666666668,
+        33.333333333333336,
+        33.333333333333336,
+        50,
+        33.333333333333336,
+        33.333333333333336,
+        16.666666666666668,
+        16.666666666666668
+      ],
+      "frameCount": 9,
+      "directionCount": 8,
+      "groundX": 36,
+      "groundY": 44,
+      "hitFrame": 5,
+      "returnFrame": 5
+    },
+    "Double": {
+      "name": "Double",
+      "index": 9,
+      "frameWidth": 56,
+      "frameHeight": 64,
+      "durationsMs": [
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        50,
+        50,
+        50,
+        33.333333333333336,
+        50,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336
+      ],
+      "frameCount": 16,
+      "directionCount": 8,
+      "groundX": 28,
+      "groundY": 36
+    },
+    "Hop": {
+      "name": "Hop",
+      "index": 10,
+      "frameWidth": 24,
+      "frameHeight": 88,
+      "durationsMs": [
+        33.333333333333336,
+        16.666666666666668,
+        33.333333333333336,
+        50,
+        66.66666666666667,
+        66.66666666666667,
+        50,
+        33.333333333333336,
+        16.666666666666668,
+        33.333333333333336
+      ],
+      "frameCount": 10,
+      "directionCount": 8,
+      "groundX": 12,
+      "groundY": 48,
+      "hitFrame": 9
+    },
+    "Charge": {
+      "name": "Charge",
+      "index": 11,
+      "frameWidth": 24,
+      "frameHeight": 40,
+      "durationsMs": [
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336
+      ],
+      "frameCount": 10,
+      "directionCount": 8,
+      "groundX": 13,
+      "groundY": 24,
+      "hitFrame": 5,
+      "returnFrame": 9
+    },
+    "Rotate": {
+      "name": "Rotate",
+      "index": 12,
+      "frameWidth": 24,
+      "frameHeight": 40,
+      "durationsMs": [
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336
+      ],
+      "frameCount": 9,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null,
+      "hitFrame": 8
+    },
+    "EventSleep": {
+      "name": "EventSleep",
+      "index": 13,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "durationsMs": [
+        500.00000000000006,
+        583.3333333333334
+      ],
+      "frameCount": 2,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Wake": {
+      "name": "Wake",
+      "index": 14,
+      "frameWidth": 24,
+      "frameHeight": 32,
+      "durationsMs": [
+        133.33333333333334,
+        100,
+        233.33333333333334,
+        66.66666666666667,
+        166.66666666666669
+      ],
+      "frameCount": 5,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Eat": {
+      "name": "Eat",
+      "index": 15,
+      "frameWidth": 24,
+      "frameHeight": 32,
+      "durationsMs": [
+        100,
+        133.33333333333334,
+        100,
+        133.33333333333334
+      ],
+      "frameCount": 4,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Tumble": {
+      "name": "Tumble",
+      "index": 16,
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "durationsMs": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50
+      ],
+      "frameCount": 9,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Pose": {
+      "name": "Pose",
+      "index": 17,
+      "frameWidth": 32,
+      "frameHeight": 48,
+      "durationsMs": [
+        133.33333333333334,
+        16.666666666666668,
+        50,
+        33.333333333333336,
+        133.33333333333334
+      ],
+      "frameCount": 5,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Pull": {
+      "name": "Pull",
+      "index": 18,
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "durationsMs": [
+        166.66666666666669,
+        200,
+        166.66666666666669,
+        200,
+        166.66666666666669,
+        200,
+        166.66666666666669
+      ],
+      "frameCount": 7,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Pain": {
+      "name": "Pain",
+      "index": 19,
+      "frameWidth": 24,
+      "frameHeight": 48,
+      "durationsMs": [
+        66.66666666666667,
+        16.666666666666668,
+        16.666666666666668,
+        16.666666666666668,
+        33.333333333333336,
+        16.666666666666668,
+        66.66666666666667,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336
+      ],
+      "frameCount": 12,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Float": {
+      "name": "Float",
+      "index": 20,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "durationsMs": [
+        150,
+        300,
+        150,
+        233.33333333333334
+      ],
+      "frameCount": 4,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "DeepBreath": {
+      "name": "DeepBreath",
+      "index": 21,
+      "frameWidth": 24,
+      "frameHeight": 32,
+      "durationsMs": [
+        200,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        166.66666666666669,
+        66.66666666666667
+      ],
+      "frameCount": 9,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Nod": {
+      "name": "Nod",
+      "index": 22,
+      "frameWidth": 24,
+      "frameHeight": 40,
+      "durationsMs": [
+        100,
+        133.33333333333334,
+        100
+      ],
+      "frameCount": 3,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Sit": {
+      "name": "Sit",
+      "index": 23,
+      "frameWidth": 24,
+      "frameHeight": 40,
+      "durationsMs": [
+        133.33333333333334,
+        133.33333333333334,
+        133.33333333333334
+      ],
+      "frameCount": 3,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "LookUp": {
+      "name": "LookUp",
+      "index": 24,
+      "frameWidth": 24,
+      "frameHeight": 40,
+      "durationsMs": [
+        100,
+        100,
+        100
+      ],
+      "frameCount": 3,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Sink": {
+      "name": "Sink",
+      "index": 25,
+      "frameWidth": 24,
+      "frameHeight": 32,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameCount": 12,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Trip": {
+      "name": "Trip",
+      "index": 26,
+      "frameWidth": 24,
+      "frameHeight": 32,
+      "durationsMs": [
+        66.66666666666667,
+        100,
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667
+      ],
+      "frameCount": 5,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Laying": {
+      "name": "Laying",
+      "index": 27,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "durationsMs": [
+        200
+      ],
+      "frameCount": 1,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "LeapForth": {
+      "name": "LeapForth",
+      "index": 28,
+      "frameWidth": 24,
+      "frameHeight": 80,
+      "durationsMs": [
+        100,
+        16.666666666666668,
+        16.666666666666668,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336
+      ],
+      "frameCount": 6,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Head": {
+      "name": "Head",
+      "index": 29,
+      "frameWidth": 24,
+      "frameHeight": 48,
+      "durationsMs": [
+        66.66666666666667
+      ],
+      "frameCount": 1,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Cringe": {
+      "name": "Cringe",
+      "index": 30,
+      "frameWidth": 32,
+      "frameHeight": 48,
+      "durationsMs": [
+        33.333333333333336,
+        133.33333333333334
+      ],
+      "frameCount": 2,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "LostBalance": {
+      "name": "LostBalance",
+      "index": 31,
+      "frameWidth": 24,
+      "frameHeight": 32,
+      "durationsMs": [
+        133.33333333333334,
+        133.33333333333334
+      ],
+      "frameCount": 2,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "TumbleBack": {
+      "name": "TumbleBack",
+      "index": 32,
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "durationsMs": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50
+      ],
+      "frameCount": 10,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "Faint": {
+      "name": "Faint",
+      "index": 33,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "durationsMs": [
+        133.33333333333334,
+        200,
+        66.66666666666667,
+        166.66666666666669
+      ],
+      "frameCount": 4,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    },
+    "HitGround": {
+      "name": "HitGround",
+      "index": 34,
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "durationsMs": [
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667,
+        100,
+        66.66666666666667,
+        66.66666666666667
+      ],
+      "frameCount": 8,
+      "directionCount": 0,
+      "groundX": null,
+      "groundY": null
+    }
+  }
+}
