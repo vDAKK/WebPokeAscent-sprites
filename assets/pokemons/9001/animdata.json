@@ -1,0 +1,42 @@
+{
+  "pokemonId": "9001",
+  "shadowSize": 1,
+  "animations": {
+    "Walk": {
+      "name": "Walk",
+      "index": 0,
+      "frameWidth": 40,
+      "frameHeight": 40,
+      "durationsMs": [
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667
+      ],
+      "frameCount": 6,
+      "directionCount": 8,
+      "groundX": 20,
+      "groundY": 38
+    },
+    "Idle": {
+      "name": "Idle",
+      "index": 1,
+      "frameWidth": 40,
+      "frameHeight": 40,
+      "durationsMs": [
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667,
+        66.66666666666667
+      ],
+      "frameCount": 6,
+      "directionCount": 8,
+      "groundX": 20,
+      "groundY": 38
+    }
+  }
+}
