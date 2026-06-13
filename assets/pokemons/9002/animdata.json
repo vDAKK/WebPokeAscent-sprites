@@ -2,41 +2,39 @@
   "pokemonId": "9002",
   "shadowSize": 1,
   "animations": {
-    "Walk": {
-      "name": "Walk",
-      "index": 0,
-      "frameWidth": 40,
-      "frameHeight": 40,
-      "durationsMs": [
-        66.66666666666667,
-        66.66666666666667,
-        66.66666666666667,
-        66.66666666666667,
-        66.66666666666667,
-        66.66666666666667
-      ],
-      "frameCount": 6,
-      "directionCount": 8,
-      "groundX": 20,
-      "groundY": 38
-    },
     "Idle": {
       "name": "Idle",
-      "index": 1,
-      "frameWidth": 40,
-      "frameHeight": 40,
+      "index": 0,
+      "frameWidth": 80,
+      "frameHeight": 80,
       "durationsMs": [
-        66.66666666666667,
-        66.66666666666667,
-        66.66666666666667,
-        66.66666666666667,
-        66.66666666666667,
-        66.66666666666667
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "frameCount": 4,
+      "directionCount": 8,
+      "groundX": 40,
+      "groundY": 60
+    },
+    "Walk": {
+      "name": "Walk",
+      "index": 1,
+      "frameWidth": 80,
+      "frameHeight": 80,
+      "durationsMs": [
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0
       ],
       "frameCount": 6,
       "directionCount": 8,
-      "groundX": 20,
-      "groundY": 38
+      "groundX": 40,
+      "groundY": 60
     }
   }
 }
